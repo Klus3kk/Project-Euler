@@ -1,10 +1,11 @@
-#include <iostream>
 #include <cstring>
+#include <iostream>
+
 using namespace std;
 
-int SieveOfEratosthenes(int n)
+long long SieveOfEratosthenes(int n)
 {
-    int sum = 0;   
+    long long sum = 0;   
     bool prime[n + 1];
     memset(prime, true, sizeof(prime));
  
